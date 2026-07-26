@@ -1,7 +1,26 @@
 aid: fantasmo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fantasmo.png
 name: Fantasmo
-description: Fantasmo is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Fantasmo builds CPS (Camera Positioning System), a computer-vision positioning technology it
+  positions as a "camera-powered GPS replacement" delivering hyper-accurate localization that works indoors
+  and in dense urban environments where satellite GPS degrades, using only a device camera and a data
+  connection rather than additional infrastructure. Its target applications span micromobility (scooter/bike
+  tracking and theft prevention), robotics navigation, mobile augmented-reality experiences, and automotive
+  lane-level positioning. Fantasmo was a Techstars-backed startup and was acquired by Niantic in 2022; the
+  public fantasmo.io site remains online but exposes no developer portal, API reference, SDK, or OpenAPI
+  surface at this time. This profile was enriched from the provider's public web presence and live
+  DNS/TLS/HTTP probes.
 url: https://raw.githubusercontent.com/api-evangelist/fantasmo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Camera Positioning
+- Computer Vision
+- Spatial Computing
+- Geolocation
+- Positioning
+- Micromobility
+- Robotics
+- Augmented Reality
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fantasmo-domain-security.yml
 - type: Website
   url: https://fantasmo.io/
+- type: Blog
+  url: https://fantasmo.io/blog-sub/index/
+- type: LLMsTxt
+  url: llms/fantasmo-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

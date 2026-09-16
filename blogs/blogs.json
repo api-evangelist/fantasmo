@@ -3,19 +3,13 @@
   "feeds": [
     {
       "source": "https://fantasmo.io/",
-      "feed_url": "https://fantasmo.io/",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "HTTPError"
     },
     {
       "source": "https://fantasmo.io/feed/",
-      "feed_url": "https://fantasmo.io/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "HTTPError"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-09-06T19:17:18Z"
+  "fetched": "2026-09-13T13:00:00Z"
 }
